@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './styles.module.scss'
 
-const Descriptiom = () => {
+const Description: React.FC = () => {
     return (
         <div className={styles.Conteiner}>
             <h1>THE BARBERSHOP</h1>
@@ -15,4 +15,4 @@ const Descriptiom = () => {
     )
 }
 
-export default  Descriptiom;
+export default  Description;

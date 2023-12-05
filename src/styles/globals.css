@@ -1,5 +1,4 @@
 body {
-  color: #977656;
- 
-  font-family: Inter;ackground-color: #3
+  color: #a08b8b;
+  @apply bg-black;
 }
