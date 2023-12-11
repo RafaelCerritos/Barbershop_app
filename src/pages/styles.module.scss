@@ -1,0 +1,33 @@
+.Container {
+    @apply flex bg-cover bg-center; 
+    @apply flex-col m-0 pb-20 items-center justify-center;
+
+    &_Logo {
+        @apply w-[8%] h-[8%];
+
+        @media screen and (max-width: 640px) {
+            @apply w-[10%] h-[10%];
+        }
+    }
+
+    &_Title {
+        @apply text-blue-800 bg-white bg-opacity-70;
+        @apply text-center font-sans pr-10 pl-10;
+        @apply text-[80%] sm:text-[220%];
+
+       
+
+        &_Paragraph {
+        @apply text-black text-base font-serif;
+         @apply text-[100%] sm:text-[50%];
+        }
+    }
+    &_Photo {
+    @apply w-[80%];
+
+    @media screen and (max-width: 640px){
+        @apply w-[80%];
+        
+    }
+    }
+}
