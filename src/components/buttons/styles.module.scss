@@ -1,40 +1,22 @@
 .Container {
     @apply w-80;
     @apply h-auto;
-    @apply gap-6;
     @apply text-center;
-    @apply mr-10;
-    @apply flex;
+    @apply flex-1 pb-2 pt-3 sm:p-5;
     
-    &_Button1 , &_Button2{
-    @apply pl-[20px] pr-[16px] pt-[16px] pb-[16px];
-
-    &:hover{
-    @apply bg-blue-500 bg-opacity-25 p-4;
-}
-}
     &_Button1 {
-    @apply bg-transparent;
-    @apply border-green-400;
-    @apply rounded-[15px];
-    @apply text-green-400;
-    }
+    @apply p-5 pr-[15%] pl-[15%] ;
+    @apply bg-blue-800;
+    @apply border-none;
+    @apply text-white text-[100%];
     
-    &_Button2 {
-    @apply bg-transparent;
-    @apply  border-blue-600;
-    @apply rounded-[15px];
-    @apply text-blue-400;
+     @media screen and (max-width: 640px) { 
+        @apply p-[3%] pr-[5%] pl-[5%]  text-[60%] ;
     }
-
-    &_Buttons {
-    @apply gap-2;
-    @apply flex;
-    @apply justify-center;
-    @apply items-center;
-    
-
-    }
+    &:hover{
+    @apply bg-blue-900 bg-opacity-80;
+}
+}
 }
 
 
