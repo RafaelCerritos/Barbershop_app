@@ -1,0 +1,19 @@
+.Conteiner {
+        @apply flex;
+        @media screen and (max-width: 600px){
+             @apply block
+        }
+        @apply gap-1;
+        @apply w-full;
+        
+    &_NameLocal {
+        @apply text-center;
+    }
+
+    &_Img {
+        @apply flex;
+        @apply gap-1;
+        @apply items-center;
+        @apply pb-3;
+    }
+}
