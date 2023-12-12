@@ -1,5 +1,8 @@
 .Conteiner {
-        @apply block sm:flex;
+        @apply flex;
+        @media screen and (max-width: 600px){
+             @apply block
+        }
         @apply gap-1;
         @apply w-full;
         
@@ -8,7 +11,7 @@
     }
 
     &_Img {
-        @apply flex sm:flex-none;
+        @apply flex;
         @apply gap-1;
         @apply items-center;
         @apply pb-3;
