@@ -1,0 +1,14 @@
+.Conteiner {
+    @apply font-sans;
+    @apply bg-opacity-30 bg-black;
+
+    &_Text {
+        @apply text-center;
+        @apply w-auto
+    }
+    &_Flex {
+        @apply block sm:flex;
+        @apply gap-1;
+        
+    }
+}

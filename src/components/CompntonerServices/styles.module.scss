@@ -1,0 +1,16 @@
+.Conteiner {
+        @apply block sm:flex;
+        @apply gap-1;
+        @apply w-full;
+        
+    &_NameLocal {
+        @apply text-center;
+    }
+
+    &_Img {
+        @apply flex sm:flex-none;
+        @apply gap-1;
+        @apply items-center;
+        @apply pb-3;
+    }
+}
