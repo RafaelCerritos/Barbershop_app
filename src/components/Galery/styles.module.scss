@@ -1,0 +1,23 @@
+.Container {
+    @apply bg-white h-full w-full;
+
+    &_Title {
+        @apply text-black text-center text-[180%];
+
+        @media screen and (max-width: 425px){
+        @apply text-[150%];
+    }
+    }
+
+    &_Grid {
+        @apply grid grid-cols-3 gap-[5%] pr-[10%] pl-[10%] pb-[15%];
+
+        @media screen and (max-width: 425px){
+        @apply grid grid-cols-2 text-[100%] pr-[0%] pl-[0%];
+    }
+        
+        &_img {
+        @apply bg-gray-300 h-[100%] w-[100%]; 
+        }
+    }
+}
