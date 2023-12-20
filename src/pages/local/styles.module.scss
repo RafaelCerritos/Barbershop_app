@@ -1,0 +1,77 @@
+.Conteiner {
+  @apply flex;
+  @apply justify-center;
+
+  &_Center {
+    @apply ml-12;
+    @apply mr-12;
+
+    &_Img {
+      @apply m-2;
+      @apply w-[60%];
+      @media screen and (max-width: 640px) {
+        @apply w-[100%];
+      }
+    }
+
+    &_Flex {
+      @apply gap-[15%];
+      @apply justify-center;
+      @apply flex;
+      @apply text-[190%];
+      @media screen and (max-width: 640px) {
+        @apply flex-col;
+        @apply gap-5;
+        @apply text-[100%];
+      }
+      &_Contact {
+        &_Button1 {
+          @apply text-white;
+          @apply p-5;
+          @apply bg-blue-500;
+          @apply border-none;
+          @apply text-[100%];
+          @media screen and (max-width: 640px) {
+            @apply p-[3%];
+            @apply pr-[3%];
+            @apply pl-[5%];
+            @apply text-[100%];
+          }
+          &:hover {
+            @apply shadow-xl;
+            @apply shadow-blue-500;
+            @apply animate-pulse;
+          }
+
+          &:focus {
+            @apply animate-ping;
+          }
+        }
+      }
+      &_Address {
+        &_Button2 {
+          @apply text-white;
+          @apply p-5;
+          @apply bg-green-500;
+          @apply border-none;
+          @apply text-[100%];
+          @media screen and (max-width: 640px) {
+            @apply p-[3%];
+            @apply pr-[3%];
+            @apply pl-[5%];
+            @apply text-[100%];
+          }
+          &:hover {
+            @apply shadow-xl;
+            @apply shadow-green-500;
+            @apply animate-pulse;
+          }
+
+          &:focus {
+            @apply animate-ping;
+          }
+        }
+      }
+    }
+  }
+}
