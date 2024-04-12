@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import ButtonContact from '@/components/buttons'
 import styles from './styles.module.scss'
 
